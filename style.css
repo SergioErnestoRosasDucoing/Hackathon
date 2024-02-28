@@ -1,0 +1,16 @@
+body {
+    
+    font-family: "Merriweather", serif;
+
+
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuirá el espacio entre las tarjetas */
+}
+
+.card {
+    width: calc(33.33% - 20px); /* Ancho del 33.33% menos el espacio entre las tarjetas */
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+}
